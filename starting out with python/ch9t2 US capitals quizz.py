@@ -25,13 +25,13 @@ print('Sprawdź, czy znasz wszystkie stolice stanów USA.')
 
 while not leave and len(capitals) > 0:
     state, capital = capitals.popitem()
-    print(f'Co jest stolicą stanu {state}? Aby zakończyć grę, naciśnij q.')
+    print(f'Co jest stolicą stanu {state}? Aby zakończyć grę, naciśnij z.')
     guess = input('Podaj odpowiedź: ')
 
     if guess == capital:
         correct += 1
         print('To prawidłowa odpowiedź!')
-    elif guess.lower() == 'q':
+    elif guess.lower() == 'z':
         leave = True
         print(f'Koniec gry. Liczba prawidłowych odpowiedzi to: {correct},'
               f' a liczba nieprawidłowych odpowiedzi to: {incorrect},')
