@@ -1,4 +1,6 @@
 import random
+
+
 def main():
     lottery = []
     for item in range(7):
@@ -6,4 +8,6 @@ def main():
         lottery.append(number)
     for num in lottery:
         print(num, end='')
+
+
 main()

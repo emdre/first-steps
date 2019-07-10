@@ -8,4 +8,6 @@ def main():
         line = outfile.readline()
     outfile.close()
     print(total)
+
+
 main()

@@ -3,4 +3,6 @@ def main():
     for num in range(1, 101):
         infile.write(str(num) + '\n')
     infile.close()
+
+
 main()    

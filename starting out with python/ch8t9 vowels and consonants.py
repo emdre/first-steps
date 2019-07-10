@@ -8,8 +8,8 @@ def main():
         if char in vowels:
             vowels_count += 1
         if char in consonants:
-            consonants_count +=1
+            consonants_count += 1
     print(f'The message you entered contains {vowels_count} vowel(s) and {consonants_count} consonant(s).')
+
+
 main()
-
-

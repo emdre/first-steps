@@ -3,4 +3,6 @@ def main():
     file_contents = name_file.read()
     name_file.close()
     print(file_contents.rstrip('\n'))
+
+
 main()    

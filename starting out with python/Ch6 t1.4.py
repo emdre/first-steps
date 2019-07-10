@@ -5,4 +5,6 @@ def main():
         count += 1
     file.close()
     print(count)
+
+
 main()

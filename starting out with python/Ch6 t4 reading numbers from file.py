@@ -3,5 +3,6 @@ def main():
     file_contents = outfile.read()
     outfile.close()
     print(file_contents)
+
+
 main()
-    
